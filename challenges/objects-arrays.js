@@ -96,7 +96,7 @@ Name email@example.com
 Log the result of your new array. */
 const contactInfo = [];
 
-for(let i = 0; i< graduates.length; i++)
+for(let i = 0; i< graduates.length; i++) 
 {
   contactInfo.unshift(`${graduates[i].first_name} ${graduates[i].email}`);
 
